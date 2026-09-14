@@ -1,0 +1,15 @@
+bin/
+obj/
+.git/
+.gitignore
+.vs/
+.vscode/
+*.user
+*.suo
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+*.tfvars
+README.md
+archive/
