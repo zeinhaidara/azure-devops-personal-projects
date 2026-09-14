@@ -1,4 +1,4 @@
-# Cloud & DevOps Training
+# Cloud & DevOps
 
 Hands-on Azure labs covering infrastructure, security, containers, Kubernetes, and CI/CD.
 
