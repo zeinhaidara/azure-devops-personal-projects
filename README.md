@@ -4,11 +4,6 @@ Hands-on Azure labs covering infrastructure, security, containers, Kubernetes, a
 
 ## Labs
 
-### Terraform — Meridian Claims
-- Dev/Prod roots with separate remote state
-- Storage, SQL, Key Vault, App Service, VNet, and private endpoints
-- Azure DevOps CI (validate/plan) and CD (Dev → Prod)
-
 ### ARM JSON — Legacy Application
 - Modular templates for networking, Linux VM, SQL Database, and Key Vault
 - Secure SQL password parameter and template orchestration
