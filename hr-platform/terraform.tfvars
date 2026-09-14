@@ -1,0 +1,15 @@
+resource_group_name                      = "Moulaye-Haidara-8.18-RG"
+vnet_name                                = "zein-hr-lab-vnet"
+app_subnet_name                          = "zein-hr-lab-subnet"
+private_endpoint_subnet_name             = "zein-hr-lab-pe-subnet"
+storage_account_name                     = "zeinhrlabstorage"
+storage_container_name                   = "documents"
+cosmos_account_name                      = "zein-hr-lab-cosmos"
+cosmos_database_name                     = "zein-hr-lab-db"
+cosmos_container_name                    = "documents"
+key_vault_name                           = "zein-hr-lab-kv"
+service_plan_name                        = "zein-hr-lab-plan"
+webapp_name_prefix                       = "zein-hr-lab-web"
+vnet_address_space                       = ["10.10.0.0/16"]
+app_subnet_address_prefixes              = ["10.10.1.0/24"]
+private_endpoint_subnet_address_prefixes = ["10.10.2.0/24"]

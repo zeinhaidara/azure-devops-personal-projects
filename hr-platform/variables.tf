@@ -1,0 +1,15 @@
+variable "resource_group_name" { type = string }
+variable "vnet_name" { type = string }
+variable "app_subnet_name" { type = string }
+variable "private_endpoint_subnet_name" { type = string }
+variable "storage_account_name" { type = string }
+variable "storage_container_name" { type = string }
+variable "cosmos_account_name" { type = string }
+variable "cosmos_database_name" { type = string }
+variable "cosmos_container_name" { type = string }
+variable "key_vault_name" { type = string }
+variable "service_plan_name" { type = string }
+variable "webapp_name_prefix" { type = string }
+variable "vnet_address_space" { type = list(string) }
+variable "app_subnet_address_prefixes" { type = list(string) }
+variable "private_endpoint_subnet_address_prefixes" { type = list(string) }
